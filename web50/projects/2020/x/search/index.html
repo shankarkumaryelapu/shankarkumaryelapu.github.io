@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <style>
+            .container {
+                display: inline-flex;
+                width: 100%;
+            }
+
+            .btn1 {
+                background-color: #f2f2f2;
+                /* background-image:linear-gradient(top,#f8f8f8,#f1f1f1); */
+                border: 1px solid #f2f2f2;
+                border-radius: 4px;
+                color: #5F6368;
+                font-family: arial, sans-serif;
+                margin: 11px 4px;
+                padding: 0px 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center; 
+            }
+            
+            #cover {
+
+                position: absolute;
+                font-family: Arial,HelveticaNeue-Light,HelveticaNeue,Helvetica ;
+                top: 50%;
+                left: 0;
+                right: 0;
+                width: 550px;
+                padding: 5px;
+                margin: -83px auto 0 auto;
+            }
+            .topright {
+                float: right;
+                padding: 5px;
+            }
+
+            .form1 {
+                background: #fff;
+                border: 1px solid #dfe1e5;
+                box-shadow: none;
+                display: flex;
+                border-radius: 24px;
+                height: 44px;
+                margin: 0 auto;
+                width: 482px;
+                padding-left: 10px;
+            }
+        </style>
+            
+    </head>
+    <body>
+        
+        <div class="topright"> <a href="advanced.html">Advanced Search<a/> </div>
+        <div class="topright"> <a href="images.html">Images<a/> </div>
+        
+        <div id="cover"> 
+            <div class="container">
+                <div id=search >
+                    <form action="https://google.com/search" >
+                        <input class=form1 type="text" name="q">
+                        <center>
+                            <input class="btn1" type="submit" value="Google Search">
+                            <input class="btn1" type="submit" value="I'm Feeling Lucky" formaction="https://www.google.com/doodles/">    
+                        </center>
+                    </form>
+                </div>
+            </div>       
+        </div>
+        
+    </body>
+</html>
